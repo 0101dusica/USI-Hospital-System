@@ -1,0 +1,262 @@
+[
+  {
+    "Id": "poll1",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "Poll about hospital!",
+    "PollGrades": [
+      3,
+      4,
+      3,
+      4
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 3.5
+  },
+  {
+    "Id": "poll2",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "Poll about hospital part2!",
+    "PollGrades": [
+      5,
+      4,
+      3,
+      2
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 3.5
+  },
+  {
+    "Id": "poll3",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "Poll about hospital part3!",
+    "PollGrades": [
+      5,
+      4,
+      3,
+      4
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 4.0
+  },
+  {
+    "Id": "poll4",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "Hospital poll about part4!",
+    "PollGrades": [
+      3,
+      4,
+      3,
+      4
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 3.5
+  },
+  {
+    "Id": "poll5",
+    "PatientUsername": "luka",
+    "PollType": 1,
+    "Questions": [
+      "1. Doctor service quality, your opinion ",
+      "2. Cleanliness inside the doctors room, your opinion",
+      "3. How satisfied are you as a patient with the work of the doctor",
+      "4. Would you recommend this doctor to friends"
+    ],
+    "Comment": "dkjasjdkasjdkasdjaskdjaksd",
+    "PollGrades": [
+      4,
+      5,
+      3,
+      4
+    ],
+    "DoctorUsername": "vesna",
+    "AverageGrade": 4.0
+  },
+  {
+    "Id": "poll6",
+    "PatientUsername": "luka",
+    "PollType": 1,
+    "Questions": [
+      "1. Doctor service quality, your opinion ",
+      "2. Cleanliness inside the doctors room, your opinion",
+      "3. How satisfied are you as a patient with the work of the doctor",
+      "4. Would you recommend this doctor to friends"
+    ],
+    "Comment": "dlasdkasdsakdlasdjaskdja",
+    "PollGrades": [
+      4,
+      5,
+      3,
+      4
+    ],
+    "DoctorUsername": "vesna",
+    "AverageGrade": 4.0
+  },
+  {
+    "Id": "poll7",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "pdsadijaslkdasjlkdasjdlasdjasljd",
+    "PollGrades": [
+      3,
+      4,
+      3,
+      4
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 3.5
+  },
+  {
+    "Id": "poll8",
+    "PatientUsername": "luka",
+    "PollType": 1,
+    "Questions": [
+      "1. Doctor service quality, your opinion ",
+      "2. Cleanliness inside the doctors room, your opinion",
+      "3. How satisfied are you as a patient with the work of the doctor",
+      "4. Would you recommend this doctor to friends"
+    ],
+    "Comment": "kfkfkfkfkfkfkfkfkfkfkfkfkfkfk",
+    "PollGrades": [
+      4,
+      5,
+      4,
+      4
+    ],
+    "DoctorUsername": "vesna",
+    "AverageGrade": 4.25
+  },
+  {
+    "Id": "poll9",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "kdkfdkkdkskdskdskdk",
+    "PollGrades": [
+      3,
+      5,
+      4,
+      5
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 4.25
+  },
+  {
+    "Id": "poll10",
+    "PatientUsername": "luka",
+    "PollType": 1,
+    "Questions": [
+      "1. Doctor service quality, your opinion ",
+      "2. Cleanliness inside the doctors room, your opinion",
+      "3. How satisfied are you as a patient with the work of the doctor",
+      "4. Would you recommend this doctor to friends"
+    ],
+    "Comment": "djsjdsjdajdjdjasjdasjdjas",
+    "PollGrades": [
+      4,
+      3,
+      4,
+      4
+    ],
+    "DoctorUsername": "petar",
+    "AverageGrade": 3.75
+  },
+  {
+    "Id": "poll11",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "dsdasdasdasdasdasdasdasdas",
+    "PollGrades": [
+      5,
+      4,
+      5,
+      2
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 4.0
+  },
+  {
+    "Id": "poll12",
+    "PatientUsername": "luka",
+    "PollType": 0,
+    "Questions": [
+      "1. Hospital service quality, your opinion ",
+      "2. Cleanliness inside the hospital, your opinion",
+      "3. How satisfied are you as a patient with the work of the hospital",
+      "4. Would you recommend this hospital to friends"
+    ],
+    "Comment": "dsadjaskldasjdlksdlasldkaslkdaskl",
+    "PollGrades": [
+      4,
+      3,
+      3,
+      4
+    ],
+    "DoctorUsername": null,
+    "AverageGrade": 3.5
+  },
+  {
+    "Id": "poll13",
+    "PatientUsername": "luka",
+    "PollType": 1,
+    "Questions": [
+      "1. Doctor service quality, your opinion ",
+      "2. Cleanliness inside the doctors room, your opinion",
+      "3. How satisfied are you as a patient with the work of the doctor",
+      "4. Would you recommend this doctor to friends"
+    ],
+    "Comment": "nmbmnbmnbnmbnbnnmbn",
+    "PollGrades": [
+      4,
+      5,
+      3,
+      4
+    ],
+    "DoctorUsername": "petar",
+    "AverageGrade": 4.0
+  }
+]

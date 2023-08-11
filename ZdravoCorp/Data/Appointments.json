@@ -1,0 +1,104 @@
+[
+  {
+    "Id": "appointment1",
+    "DoctorUsername": "vesna",
+    "PatientUsername": "luka",
+    "AppointmentStatus": 0,
+    "AppointmentType": 0,
+    "Anamnesis": {
+      "Observations": "",
+      "Symptoms": []
+    },
+    "TimeSlot": {
+      "StartTime": "2023-05-30T23:49:05",
+      "EndTime": "2023-05-31T00:04:05"
+    },
+    "RoomId": "",
+    "RatedStatus": 0
+  },
+  {
+    "Id": "appointment2",
+    "DoctorUsername": "petar",
+    "PatientUsername": "luka",
+    "AppointmentStatus": 2,
+    "AppointmentType": 0,
+    "Anamnesis": {
+      "Observations": "",
+      "Symptoms": []
+    },
+    "TimeSlot": {
+      "StartTime": "2023-06-19T10:00:00",
+      "EndTime": "2023-06-19T10:15:00"
+    },
+    "RoomId": "",
+    "RatedStatus": 1
+  },
+  {
+    "Id": "appointment3",
+    "DoctorUsername": "vesna",
+    "PatientUsername": "luka",
+    "AppointmentStatus": 0,
+    "AppointmentType": 0,
+    "Anamnesis": {
+      "Observations": "",
+      "Symptoms": []
+    },
+    "TimeSlot": {
+      "StartTime": "2023-06-10T12:00:00",
+      "EndTime": "2023-06-10T12:15:00"
+    },
+    "RoomId": "",
+    "RatedStatus": 0
+  },
+  {
+    "Id": "appointment4",
+    "DoctorUsername": "vesna",
+    "PatientUsername": "luka",
+    "AppointmentStatus": 0,
+    "AppointmentType": 0,
+    "Anamnesis": {
+      "Observations": "",
+      "Symptoms": []
+    },
+    "TimeSlot": {
+      "StartTime": "2023-06-17T18:00:00",
+      "EndTime": "2023-06-17T18:15:00"
+    },
+    "RoomId": "",
+    "RatedStatus": 0
+  },
+  {
+    "Id": "appointment5",
+    "DoctorUsername": "petar",
+    "PatientUsername": "luka",
+    "AppointmentStatus": 2,
+    "AppointmentType": 0,
+    "Anamnesis": {
+      "Observations": "",
+      "Symptoms": []
+    },
+    "TimeSlot": {
+      "StartTime": "2023-06-01T23:53:42",
+      "EndTime": "2023-06-02T00:08:42"
+    },
+    "RoomId": "",
+    "RatedStatus": 1
+  },
+  {
+    "Id": "appointment6",
+    "DoctorUsername": "vesna",
+    "PatientUsername": "luka",
+    "AppointmentStatus": 2,
+    "AppointmentType": 0,
+    "Anamnesis": {
+      "Observations": "",
+      "Symptoms": []
+    },
+    "TimeSlot": {
+      "StartTime": "2023-06-13T22:05:03",
+      "EndTime": "2023-06-13T22:20:03"
+    },
+    "RoomId": "",
+    "RatedStatus": 0
+  }
+]

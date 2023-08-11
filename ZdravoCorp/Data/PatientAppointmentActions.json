@@ -1,0 +1,32 @@
+[
+  {
+    "PatientUsername": "luka",
+    "PatientAction": 1,
+    "TimeAction": "2023-05-30T20:12:48.7541679+02:00"
+  },
+  {
+    "PatientUsername": "luka",
+    "PatientAction": 0,
+    "TimeAction": "2023-05-30T23:31:34.4071056+02:00"
+  },
+  {
+    "PatientUsername": "luka",
+    "PatientAction": 0,
+    "TimeAction": "2023-05-30T23:40:59.963407+02:00"
+  },
+  {
+    "PatientUsername": "luka",
+    "PatientAction": 0,
+    "TimeAction": "2023-05-30T23:43:03.4046532+02:00"
+  },
+  {
+    "PatientUsername": "luka",
+    "PatientAction": 0,
+    "TimeAction": "2023-05-30T23:48:09.9029914+02:00"
+  },
+  {
+    "PatientUsername": "luka",
+    "PatientAction": 0,
+    "TimeAction": "2023-06-14T02:35:12.7188164+02:00"
+  }
+]

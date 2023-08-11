@@ -1,0 +1,30 @@
+[
+  {
+    "SpecialistReferralStatus": 0,
+    "ToDoctor": "petar",
+    "Id": "specialistReferral1",
+    "FromDoctor": "vesna",
+    "PatientUsername": "luka"
+  },
+  {
+    "SpecialistReferralStatus": 1,
+    "ToDoctor": "vesna",
+    "Id": "specialistReferral2",
+    "FromDoctor": "petar",
+    "PatientUsername": "luka"
+  },
+  {
+    "SpecialistReferralStatus": 0,
+    "ToDoctor": "petar",
+    "Id": "specialistReferral3",
+    "FromDoctor": "vesna",
+    "PatientUsername": "luka"
+  },
+  {
+    "SpecialistReferralStatus": 0,
+    "ToDoctor": "petar",
+    "Id": "specialistReferral4",
+    "FromDoctor": "vesna",
+    "PatientUsername": "luka"
+  }
+]

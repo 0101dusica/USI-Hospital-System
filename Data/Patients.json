@@ -1,0 +1,47 @@
+[
+  {
+    "MedicalRecord": {
+      "Height": 177,
+      "Weight": 77,
+      "MedicalHistory": [
+        "high blood preasure",
+        "tumor",
+        "srce"
+      ],
+      "Allergies": [
+        "Penicilin"
+      ],
+      "AppointmentIds": [
+        "appointment1",
+        "appointment2",
+        "appointment3",
+        "appointment4",
+        "appointment5",
+        "appointment6"
+      ]
+    },
+    "FirstName": "Lukaa",
+    "LastName": "Farkas",
+    "Username": "luka",
+    "Password": "luka123",
+    "UserStatus": 0
+  },
+  {
+    "MedicalRecord": {
+      "Height": 176,
+      "Weight": 76,
+      "MedicalHistory": [
+        "high blood preasure"
+      ],
+      "Allergies": [
+        "ni"
+      ],
+      "AppointmentIds": []
+    },
+    "FirstName": "Jana",
+    "LastName": "Janic",
+    "Username": "jana",
+    "Password": "luka123",
+    "UserStatus": 0
+  }
+]

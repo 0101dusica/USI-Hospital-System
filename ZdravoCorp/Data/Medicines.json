@@ -1,0 +1,51 @@
+[{
+  "Id": "medicine1",
+  "Name": "Amoxicilin",
+  "Ingredients": ["Penicilin"]
+},
+{
+  "Id": "medicine2",
+  "Name": "Paracetamol",
+  "Ingredients": ["Paracetamol", "Lactose"]
+},
+{
+  "Id": "medicine3",
+  "Name": "Ibuprofen",
+  "Ingredients": ["Ibuprofen", "Corn starch"]
+},
+{
+  "Id": "medicine4",
+  "Name": "Omeprazole",
+  "Ingredients": ["Omeprazole", "Magnesium stearate"]
+},
+{
+  "Id": "medicine5",
+  "Name": "Loratadine",
+  "Ingredients": ["Loratadine", "Microcrystalline cellulose"]
+},
+{
+  "Id": "medicine6",
+  "Name": "Simvastatin",
+  "Ingredients": ["Simvastatin", "Sodium lauryl sulfate"]
+},
+{
+  "Id": "medicine7",
+  "Name": "Metformin",
+  "Ingredients": ["Metformin", "Povidone"]
+},
+{
+  "Id": "medicine8",
+  "Name": "Amlodipine",
+  "Ingredients": ["Amlodipine", "Croscarmellose sodium"]
+},
+{
+  "Id": "medicine9",
+  "Name": "Sertraline",
+  "Ingredients": ["Sertraline", "Excipient X"]
+},
+{
+  "Id": "medicine10",
+  "Name": "Warfarin",
+  "Ingredients": ["Warfarin", "Hypromellose"]
+}
+]

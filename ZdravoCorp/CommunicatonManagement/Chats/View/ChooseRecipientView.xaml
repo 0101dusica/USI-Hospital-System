@@ -1,0 +1,40 @@
+﻿<Window x:Class="ZdravoCorp.CommunicatonManagement.Chats.View.ChooseRecipientView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.CommunicatonManagement.Chats.View"
+        mc:Ignorable="d"
+        Title="ChooseRecipientView" Height="450" Width="650" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid Background="#FF0D47C9">
+        <Label Content="Conversation between doctors and nurses" HorizontalAlignment="Left" Height="46" Margin="25,25,0,0" VerticalAlignment="Top" Width="375" FontSize="16" FontWeight="Bold"/>
+        <ComboBox HorizontalAlignment="Left" ItemsSource="{Binding Doctors, Mode=TwoWay}"
+                  SelectedItem="{Binding SelectedDoctor, Mode=TwoWay}" Height="37" Margin="25,121,0,0" VerticalAlignment="Top" Width="232">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <Binding Path="Username" />
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <ComboBox HorizontalAlignment="Left" ItemsSource="{Binding Nurses, Mode=TwoWay}"
+                  SelectedItem="{Binding SelectedNurse, Mode=TwoWay}" Height="37" Margin="343,121,0,0" VerticalAlignment="Top" Width="232">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <Binding Path="Username" />
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Button Content="CHAT" HorizontalAlignment="Left" Height="38" Margin="424,320,0,0" VerticalAlignment="Top" Width="136" FontSize="14" FontWeight="Bold" Background="#FF103187" Command="{Binding ShowChatCommand}"/>
+        <Label Content="Doctors" HorizontalAlignment="Left" Height="40" Margin="25,76,0,0" VerticalAlignment="Top" Width="151" FontWeight="Bold" FontSize="14"/>
+        <Label Content="Nurses" HorizontalAlignment="Left" Height="40" Margin="343,81,0,0" VerticalAlignment="Top" Width="116" FontSize="14" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

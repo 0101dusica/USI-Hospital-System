@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "prescription1",
+    "DailyUsage": 2,
+    "Instruction": 1,
+    "MedicineId": "medicine1",
+    "TimeSlot": {
+      "StartTime": "2023-05-30T00:00:00+02:00",
+      "EndTime": "2023-05-30T00:00:00+02:00"
+    },
+    "PatientUsername": "luka",
+    "DoctorUsername": "vesna",
+    "Time": "22:55:00",
+    "TimeSet": 130,
+    "PrescriptionStatus": 1
+  },
+  {
+    "Id": "prescription2",
+    "DailyUsage": 5,
+    "Instruction": 0,
+    "MedicineId": "medicine2",
+    "TimeSlot": {
+      "StartTime": "2023-05-01T00:00:00+02:00",
+      "EndTime": "2023-05-28T00:00:00+02:00"
+    },
+    "PatientUsername": "luka",
+    "DoctorUsername": "vesna",
+    "Time": "21:55:00",
+    "TimeSet": 32,
+    "PrescriptionStatus": 0
+  },
+  {
+    "Id": "prescription3",
+    "DailyUsage": 5,
+    "Instruction": 0,
+    "MedicineId": "medicine1",
+    "TimeSlot": {
+      "StartTime": "2023-05-30T23:08:31.6586078+02:00",
+      "EndTime": "2023-06-02T23:08:31.6586078+02:00"
+    },
+    "PatientUsername": "luka",
+    "DoctorUsername": "vesna",
+    "Time": "23:30:00",
+    "TimeSet": 30,
+    "PrescriptionStatus": 1
+  }
+]

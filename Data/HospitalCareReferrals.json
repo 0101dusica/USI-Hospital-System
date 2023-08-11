@@ -1,0 +1,29 @@
+[
+  {
+    "TimeSlot": {
+      "StartTime": "0001-01-01T00:00:00",
+      "EndTime": "0001-01-01T00:00:00"
+    },
+    "AdditionalTests": [
+      "Test1",
+      "Test2"
+    ],
+    "Therapy": "Some therapy",
+    "Id": "hospitalReferral1",
+    "FromDoctor": "vesna",
+    "PatientUsername": "luka"
+  },
+  {
+    "TimeSlot": {
+      "StartTime": "2023-07-08T00:00:00",
+      "EndTime": "2023-07-13T00:00:00"
+    },
+    "AdditionalTests": [
+      "fs"
+    ],
+    "Therapy": ";adda",
+    "Id": "hospitalReferral2",
+    "FromDoctor": "vesna",
+    "PatientUsername": "luka"
+  }
+]

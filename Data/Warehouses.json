@@ -1,0 +1,109 @@
+[
+  {
+    "Id": "warehouse1",
+    "InventoryItems": [
+      {
+        "EquipmentId": "equipment1",
+        "Quantity": 20,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment2",
+        "Quantity": 74,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment3",
+        "Quantity": 25,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment8",
+        "Quantity": 5,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment12",
+        "Quantity": 4,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment16",
+        "Quantity": 3,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment19",
+        "Quantity": 8,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment18",
+        "Quantity": 2,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment20",
+        "Quantity": 3,
+        "Reserved": 0
+      },
+      {
+        "EquipmentId": "equipment14",
+        "Quantity": 3,
+        "Reserved": 0
+      }
+    ],
+    "MedicineItems": [
+      {
+        "MedicineId": "medicine1",
+        "Quantity": 5,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine2",
+        "Quantity": 1,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine3",
+        "Quantity": 15,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine4",
+        "Quantity": 20,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine5",
+        "Quantity": 1,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine6",
+        "Quantity": 3,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine7",
+        "Quantity": 4,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine8",
+        "Quantity": 5,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine9",
+        "Quantity": 7,
+        "Status": 0
+      },
+      {
+        "MedicineId": "medicine10",
+        "Quantity": 8,
+        "Status": 0
+      }
+    ]
+  }
+]

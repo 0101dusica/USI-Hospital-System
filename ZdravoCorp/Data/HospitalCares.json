@@ -1,0 +1,18 @@
+[
+  {
+    "Id": "hospitalCare1",
+    "ReferralId": "hospitalReferral1",
+    "PatientUsername": "luka",
+    "TimeSlot": {
+      "StartTime": "2023-05-28T22:15:00",
+      "EndTime": "2023-06-18T00:00:00"
+    },
+    "RoomId": null,
+    "Therapy": "Tototootot",
+    "VisitIds": [
+      "visit1",
+      "visit2"
+    ],
+    "HospitalCareStatus": 0
+  }
+]

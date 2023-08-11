@@ -1,0 +1,82 @@
+[
+  {
+    "Id": "renovation1",
+    "RoomIds": [
+      "room3"
+    ],
+    "RenovationType": 2,
+    "TimeSlot": {
+      "StartTime": "2023-05-29T00:00:00",
+      "EndTime": "2023-06-01T00:00:00"
+    }
+  },
+  {
+    "Id": "renovation2",
+    "RoomIds": [
+      "room4"
+    ],
+    "RenovationType": 0,
+    "TimeSlot": {
+      "StartTime": "2023-06-01T00:00:00",
+      "EndTime": "2023-06-02T00:00:00"
+    }
+  },
+  {
+    "Id": "renovation3",
+    "RoomIds": [
+      "room5",
+      "room7"
+    ],
+    "RenovationType": 1,
+    "TimeSlot": {
+      "StartTime": "2023-06-02T00:00:00",
+      "EndTime": "2023-06-05T00:00:00"
+    }
+  },
+  {
+    "Id": "renovation4",
+    "RoomIds": [
+      "room11",
+      "room11-2"
+    ],
+    "RenovationType": 0,
+    "TimeSlot": {
+      "StartTime": "0001-01-01T00:00:00",
+      "EndTime": "2023-06-02T00:00:00"
+    }
+  },
+  {
+    "Id": "renovation5",
+    "RoomIds": [
+      "room4"
+    ],
+    "RenovationType": 0,
+    "TimeSlot": {
+      "StartTime": "2023-05-31T00:00:00",
+      "EndTime": "2023-06-03T00:00:00"
+    }
+  },
+  {
+    "Id": "renovation6",
+    "RoomIds": [
+      "room9"
+    ],
+    "RenovationType": 2,
+    "TimeSlot": {
+      "StartTime": "2023-06-03T00:00:00",
+      "EndTime": "2023-06-05T00:00:00"
+    }
+  },
+  {
+    "Id": "renovation7",
+    "RoomIds": [
+      "room10",
+      "room8"
+    ],
+    "RenovationType": 1,
+    "TimeSlot": {
+      "StartTime": "2023-06-07T00:00:00",
+      "EndTime": "2023-06-12T00:00:00"
+    }
+  }
+]

@@ -1,0 +1,77 @@
+﻿<Window x:Class="ZdravoCorp.CommunicatonManagement.Polls.View.DoctorPollView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZdravoCorp.CommunicatonManagement.Polls.View"
+        xmlns:local1="clr-namespace:ZdravoCorp.Utils.Converters"
+        mc:Ignorable="d"
+          Title="PatientDoctorPollAboutHospital" Height="600" Width="800"  ResizeMode="NoResize">
+    <Window.Resources>
+        <local1:BoolToRatingConverter x:Key="BoolToRatingConverter" />
+    </Window.Resources>
+    <Window.Style>
+        <Style TargetType="Window">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding CloseWindow}" Value="True">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Style>
+    <Grid Background="#FF2449DD">
+
+        <Label Content="Poll about doctor" HorizontalAlignment="Left" Height="43" Margin="28,10,0,0" VerticalAlignment="Top" Width="314" FontSize="18" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Label  Content="{Binding Question1}" HorizontalAlignment="Left" Margin="57,79,0,0" VerticalAlignment="Top" Width="379" FontWeight="Bold" FontSize="16" Height="34" Grid.ColumnSpan="2"/>
+        <RadioButton Content="1" FontWeight="Bold" GroupName="RatingGroup1" HorizontalAlignment="Left" Height="17" Margin="57,118,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer1,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=1}" Grid.ColumnSpan="2" />
+        <RadioButton Content="2" FontWeight="Bold" GroupName="RatingGroup1" HorizontalAlignment="Left" Height="17" Margin="133,118,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer1,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=2}" Grid.ColumnSpan="2" />
+        <RadioButton Content="3" FontWeight="Bold" GroupName="RatingGroup1" HorizontalAlignment="Left" Height="17" Margin="219,118,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer1,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=3}" Grid.ColumnSpan="2" />
+        <RadioButton Content="4" FontWeight="Bold" GroupName="RatingGroup1" HorizontalAlignment="Left" Height="17" Margin="303,118,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer1,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=4}" Grid.ColumnSpan="2" />
+        <RadioButton Content="5" FontWeight="Bold" GroupName="RatingGroup1" HorizontalAlignment="Center" Height="17" Margin="0,118,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer1,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=5}" Grid.Column="1" />
+        <Label Content="{Binding Question2}" HorizontalAlignment="Left" Height="39" Margin="57,157,0,0" VerticalAlignment="Top" Width="419" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="2"/>
+        <RadioButton Content="1 " FontWeight="Bold" GroupName="RatingGroup2" HorizontalAlignment="Left" Height="17" Margin="57,205,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer2,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=1}" Grid.ColumnSpan="2" />
+        <RadioButton Content="2" FontWeight="Bold" GroupName="RatingGroup2" HorizontalAlignment="Left" Height="28" Margin="133,205,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer2,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=2}" Grid.ColumnSpan="2" />
+        <RadioButton Content="3" FontWeight="Bold" GroupName="RatingGroup2" HorizontalAlignment="Left" Height="19" Margin="219,205,0,0" VerticalAlignment="Top" Width="84"
+                     IsChecked="{Binding Answer2,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=3}" Grid.ColumnSpan="2" />
+        <RadioButton Content="4" FontWeight="Bold" GroupName="RatingGroup2" HorizontalAlignment="Left" Height="32" Margin="303,205,0,0" VerticalAlignment="Top" Width="104"
+                     IsChecked="{Binding Answer2,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=4}" Grid.ColumnSpan="2" />
+        <RadioButton Content="5" FontWeight="Bold" GroupName="RatingGroup2" HorizontalAlignment="Left" Height="27" Margin="378,205,0,0" VerticalAlignment="Top" Width="98"
+                     IsChecked="{Binding Answer2,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=5}" Grid.ColumnSpan="2" />
+
+        <Label Content="{Binding Question3}" HorizontalAlignment="Left" Height="43" Margin="57,241,0,0" VerticalAlignment="Top" Width="584" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="2"/>
+        <RadioButton Content="1"  FontWeight="Bold" GroupName="RatingGroup3" HorizontalAlignment="Left" Height="24" Margin="57,289,0,0" VerticalAlignment="Top" Width="56"
+                     IsChecked="{Binding Answer3,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=1}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="2"  FontWeight="Bold" GroupName="RatingGroup3" HorizontalAlignment="Left" Height="24" Margin="133,289,0,0" VerticalAlignment="Top" Width="52"
+                     IsChecked="{Binding Answer3,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=2}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="3"  FontWeight="Bold" GroupName="RatingGroup3" HorizontalAlignment="Left" Height="24" Margin="219,289,0,0" VerticalAlignment="Top" Width="55"
+                     IsChecked="{Binding Answer3,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=3}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="4"  FontWeight="Bold" GroupName="RatingGroup3" HorizontalAlignment="Left" Height="24" Margin="303,289,0,0" VerticalAlignment="Top" Width="46"
+                     IsChecked="{Binding Answer3,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=4}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="5"  FontWeight="Bold" GroupName="RatingGroup3" HorizontalAlignment="Left" Height="24" Margin="378,289,0,0" VerticalAlignment="Top" Width="48"
+                     IsChecked="{Binding Answer3,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=5}" Grid.Column="1"/>
+
+        <Label Content="{Binding Question4}" HorizontalAlignment="Left" Height="30" Margin="57,329,0,0" VerticalAlignment="Top" Width="522" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="2"/>
+        <RadioButton Content="1" HorizontalAlignment="Left" FontWeight="Bold" GroupName="RatingGroup4" Height="20" Margin="57,379,0,0" VerticalAlignment="Top" Width="44"
+                     IsChecked="{Binding Answer4,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=1}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="2" HorizontalAlignment="Left" FontWeight="Bold" GroupName="RatingGroup4" Height="20" Margin="133,379,0,0" VerticalAlignment="Top" Width="56"
+                     IsChecked="{Binding Answer4,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=2}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="3" HorizontalAlignment="Left" FontWeight="Bold" GroupName="RatingGroup4" Height="20" Margin="219,379,0,0" VerticalAlignment="Top" Width="63"
+                     IsChecked="{Binding Answer4,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=3}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="4" HorizontalAlignment="Left" FontWeight="Bold" GroupName="RatingGroup4" Height="20" Margin="303,379,0,0" VerticalAlignment="Top" Width="59"
+                     IsChecked="{Binding Answer4,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=4}" Grid.ColumnSpan="2"/>
+        <RadioButton Content="5" HorizontalAlignment="Left" FontWeight="Bold" GroupName="RatingGroup4" Height="20" Margin="378,379,0,0" VerticalAlignment="Top" Width="51"
+                     IsChecked="{Binding Answer4,  Mode=TwoWay, Converter={StaticResource BoolToRatingConverter}, ConverterParameter=5}" Grid.ColumnSpan="2"/>
+        <Label Content="Add extra comment if you want: " HorizontalAlignment="Left" Height="32" Margin="57,440,0,0" VerticalAlignment="Top" Width="379" FontWeight="Bold" FontSize="16" Grid.ColumnSpan="2"/>
+        <TextBox HorizontalAlignment="Left" Height="38" Margin="57,485,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="298" Text="{Binding Comment}" Grid.ColumnSpan="2"/>
+        <Button Content="SUBMIT" HorizontalAlignment="Left" Height="38" Margin="526,485,0,0" VerticalAlignment="Top" Width="166" FontWeight="Bold" FontSize="14" Background="#FF1F06C3" Grid.ColumnSpan="2" Command="{Binding SubmitDoctorPollCommand}"/>
+
+
+    </Grid>
+</Window>

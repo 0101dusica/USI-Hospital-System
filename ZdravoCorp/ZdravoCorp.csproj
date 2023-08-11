@@ -1,0 +1,122 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PatientHealthManagement\**" />
+    <Compile Remove="SchedulingManagement\Appointments\Commands\**" />
+    <Compile Remove="CommunicatonManagement\Notifications\Commands\**" />
+    <Compile Remove="SchedulingManagement\Appointments\ViewModel\**" />
+    <Compile Remove="SchedulingManagement\Appointments\View\**" />
+    <Compile Remove="SchedulingManagement\Appointment\**" />
+    <Compile Remove="SchedulingManagement\Notification\**" />
+    <Compile Remove="Utils\Converters\AuthenticationManagement\**" />
+    <Compile Remove="Utils\Converters\HospitalManagement\**" />
+    <Compile Remove="Utils\Converters\PatientHealthManagement\**" />
+    <Compile Remove="Utils\Converters\SchedulingManagement\**" />
+    <EmbeddedResource Remove="PatientHealthManagement\**" />
+    <EmbeddedResource Remove="SchedulingManagement\Appointments\Commands\**" />
+    <EmbeddedResource Remove="CommunicatonManagement\Notifications\Commands\**" />
+    <EmbeddedResource Remove="SchedulingManagement\Appointments\ViewModel\**" />
+    <EmbeddedResource Remove="SchedulingManagement\Appointments\View\**" />
+    <EmbeddedResource Remove="SchedulingManagement\Appointment\**" />
+    <EmbeddedResource Remove="SchedulingManagement\Notification\**" />
+    <EmbeddedResource Remove="Utils\Converters\AuthenticationManagement\**" />
+    <EmbeddedResource Remove="Utils\Converters\HospitalManagement\**" />
+    <EmbeddedResource Remove="Utils\Converters\PatientHealthManagement\**" />
+    <EmbeddedResource Remove="Utils\Converters\SchedulingManagement\**" />
+    <None Remove="PatientHealthManagement\**" />
+    <None Remove="SchedulingManagement\Appointments\Commands\**" />
+    <None Remove="CommunicatonManagement\Notifications\Commands\**" />
+    <None Remove="SchedulingManagement\Appointments\ViewModel\**" />
+    <None Remove="SchedulingManagement\Appointments\View\**" />
+    <None Remove="SchedulingManagement\Appointment\**" />
+    <None Remove="SchedulingManagement\Notification\**" />
+    <None Remove="Utils\Converters\AuthenticationManagement\**" />
+    <None Remove="Utils\Converters\HospitalManagement\**" />
+    <None Remove="Utils\Converters\PatientHealthManagement\**" />
+    <None Remove="Utils\Converters\SchedulingManagement\**" />
+    <Page Remove="PatientHealthManagement\**" />
+    <Page Remove="SchedulingManagement\Appointments\Commands\**" />
+    <Page Remove="CommunicatonManagement\Notifications\Commands\**" />
+    <Page Remove="SchedulingManagement\Appointments\ViewModel\**" />
+    <Page Remove="SchedulingManagement\Appointments\View\**" />
+    <Page Remove="SchedulingManagement\Appointment\**" />
+    <Page Remove="SchedulingManagement\Notification\**" />
+    <Page Remove="Utils\Converters\AuthenticationManagement\**" />
+    <Page Remove="Utils\Converters\HospitalManagement\**" />
+    <Page Remove="Utils\Converters\PatientHealthManagement\**" />
+    <Page Remove="Utils\Converters\SchedulingManagement\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PatientHealthCareManagement\Hospitalization\Visits\ViewModel\" />
+    <Folder Include="PatientHealthCareManagement\Hospitalization\Visits\View\" />
+    <Folder Include="SchedulingManagement\Appointments\AppointmentWithPriority\Command\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.5.0" />
+    <PackageReference Include="Hangfire" Version="1.8.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\doktor.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="UserManagement\Patients\View\EditPatientView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="UserManagement\Patients\View\InsertPatientView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="UserManagement\Patients\View\NursePatientsListView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="PatientHealthCareManagement\Pharmacy\Medicines\View\NurseMedicationDispenserView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="PatientHealthCareManagement\Pharmacy\Medicines\View\NurseMedicinesReportView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="PatientHealthCareManagement\Pharmacy\Prescriptions\View\AddPrescriptionView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\AppointmentWithPriority\View\PatientAppointmentsWithPriorityView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\DoctorAppointment\View\CreateAppointmentView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\DoctorAppointment\View\DoctorAppointmentsView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\DoctorAppointment\View\UpdateAppointmentView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\EmergencyAppointment\View\AddEmergencyAppointmentView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\Examination\View\DoctorExaminationView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="SchedulingManagement\Appointments\PatientAppointment\View\PatientAppointmentsView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="SchedulingManagement\FreeDays\View\AddFreeDaysView.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
+
+</Project>

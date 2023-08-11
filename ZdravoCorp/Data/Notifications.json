@@ -1,0 +1,54 @@
+[
+  {
+    "Id": "notification1",
+    "Username": null,
+    "Title": "POSTPONED EXAMINATION DATE",
+    "Description": "Delayed appointment: appointment2. Urgent appointment in the term: 2023-05-29 00:18:00",
+    "NotificationStatus": 0,
+    "PersonUsername": null,
+    "TimeSlot": {
+      "StartTime": "2023-05-28T22:15:00",
+      "EndTime": "2023-06-29T00:00:00"
+    },
+    "Time": "07:53:00"
+  },
+  {
+    "Id": "notification2",
+    "Username": "luka",
+    "Title": "Prva notifikacija",
+    "Description": "Cestitamo i uzivajte!",
+    "NotificationStatus": 0,
+    "PersonUsername": null,
+    "TimeSlot": {
+      "StartTime": "2023-12-12T00:00:00",
+      "EndTime": "2023-12-12T00:00:00"
+    },
+    "Time": "08:00:00"
+  },
+  {
+    "Id": "notification3",
+    "Username": "luka",
+    "Title": "dsadasdsadasdsad",
+    "Description": "cxzcdczcxzczxczx",
+    "NotificationStatus": 0,
+    "PersonUsername": null,
+    "TimeSlot": {
+      "StartTime": "2023-05-29T00:00:00",
+      "EndTime": "2023-05-31T00:00:00"
+    },
+    "Time": "21:35:00"
+  },
+  {
+    "Id": "notification4",
+    "Username": "luka",
+    "Title": "message",
+    "Description": "hello this is message for check test",
+    "NotificationStatus": 0,
+    "PersonUsername": null,
+    "TimeSlot": {
+      "StartTime": "2023-05-31T00:00:00",
+      "EndTime": "2023-05-31T00:00:00"
+    },
+    "Time": "10:00:00"
+  }
+]

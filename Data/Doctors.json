@@ -1,0 +1,66 @@
+[
+  {
+    "Specialization": 0,
+    "AppointmentIds": [
+      "appointment1",
+      "appointment3",
+      "appointment4",
+      "appointment6"
+    ],
+    "FreeDaysIds": [
+      "freeDays1"
+    ],
+    "Grades": [
+      1,
+      5,
+      2,
+      3,
+      4,
+      5,
+      3,
+      4,
+      4,
+      5,
+      3,
+      4,
+      4,
+      5,
+      4,
+      4
+    ],
+    "AverageGrade": 3.75,
+    "FirstName": "Vesna",
+    "LastName": "Vasic",
+    "Username": "vesna",
+    "Password": "vesna123",
+    "UserStatus": 0
+  },
+  {
+    "Specialization": 1,
+    "AppointmentIds": [
+      "appointment2",
+      "appointment5"
+    ],
+    "FreeDaysIds": [],
+    "Grades": [
+      1,
+      5,
+      2,
+      3,
+      4,
+      3,
+      4,
+      4,
+      4,
+      5,
+      3,
+      4
+    ],
+    "AverageGrade": 3.5,
+    "FirstName": "petar",
+    "LastName": "petrovic",
+    "Username": "petar",
+    "Password": "petar123",
+    "UserStatus": 0
+  }
+]

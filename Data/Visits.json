@@ -1,0 +1,20 @@
+﻿[
+  {
+    "Id": "visit1",
+    "BloodPressure": "120/80",
+    "Temperature": 36.5,
+    "Observations": "Patient seems to be recovering well."
+  },
+  {
+    "Id": "visit2",
+    "BloodPressure": "130/85",
+    "Temperature": 37.0,
+    "Observations": "Patient's condition is stable."
+  },
+  {
+    "Id": "visit3",
+    "BloodPressure": "140/90",
+    "Temperature": 36.8,
+    "Observations": "Patient reported mild discomfort."
+  }
+]
